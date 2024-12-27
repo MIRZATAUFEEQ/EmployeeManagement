@@ -1,7 +1,13 @@
 import React from 'react'
-
-export const App = () => {
+import Login from './components/Auth/Login'
+const App = () => {
   return (
-    <div>App</div>
+    <>
+    <div>
+      <Login/>
+    </div>
+    </>
   )
 }
+
+export default App
